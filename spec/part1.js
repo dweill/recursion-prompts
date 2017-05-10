@@ -1130,7 +1130,7 @@
         expect(Array.isArray(alternateSign(input1))).to.equal(true);
       });
 
-      it('should remove excess zeroes', function() {
+      it('should alternate signs', function() {
         expect(alternateSign(input1)).to.eql([2,-7,8,-3,1,-4]);
         expect(alternateSign(input2)).to.eql([2,-7,8,-3,1,-4]);
       });
